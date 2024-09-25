@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #141414;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #e50914;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.sign-in .btn {
+    background-color: #e50914;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.sign-in .btn:hover {
+    background-color:rgba(236, 71, 71, 0.89);
+}
+
+body{
+    margin-top: 0;
+    background-image: url(netflix\ bg.jpg);
+}
+
+form{
+    border:1px solid black;
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.904);
+}
+
+h2{
+    margin-top: 5px;
+    padding-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: rgb(130, 126, 126);
+}
+
+#email{
+    padding-left:35px;
+    padding-right: 35px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    color:rgb(171, 167, 167);
+    background-color: rgb(244, 237, 237);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#password{
+    padding-left:35px;
+    padding-right: 35px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    color:rgb(1, 1, 1);
+    background-color:rgb(244, 237, 237);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#button{
+    padding-left:60px;
+    padding-right: 60px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size:20px;
+}
+
+#New {
+   color:whitesmoke;
+}
+
+#cap{
+    color: whitesmoke;
+}
